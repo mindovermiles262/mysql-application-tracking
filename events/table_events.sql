@@ -1,4 +1,5 @@
-USE Applicants;
+CREATE DATABASE IF NOT EXISTS ApplicationTracking;
+USE ApplicationTracking;
 DROP TABLE IF EXISTS Events;
 CREATE TABLE Events(
   EventId INT NOT NULL AUTO_INCREMENT,

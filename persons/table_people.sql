@@ -1,4 +1,5 @@
-USE Applicants;
+CREATE DATABASE IF NOT EXISTS ApplicationTracking;
+USE ApplicationTracking;
 DROP TABLE IF EXISTS Persons;
 CREATE TABLE Persons (
   PersonId int NOT NULL AUTO_INCREMENT,

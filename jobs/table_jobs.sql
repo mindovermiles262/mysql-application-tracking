@@ -1,4 +1,5 @@
-USE Applicants;
+CREATE DATABASE IF NOT EXISTS ApplicationTracking;
+USE ApplicationTracking;
 CREATE TABLE Jobs (
   JobId int NOT NULL AUTO_INCREMENT,
   Title varchar(255),
